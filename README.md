@@ -23,3 +23,14 @@ How to use:
 - `php dump-all.sh.php | sh` will dump all tables.
 - `sh dump-all.sh` is the combination of rotate and dump-all.  
   This is what you want to put in your cron.
+
+
+Archive spreading:
+- hourly dump for the last 4 hours
+- 3-hourly dump for the last 24 hours
+- daily dump for the last 7 days 
+- monthly dump for the last 4 months
+- 3-monthly dumps for the last year
+- yearly dumps forever
+
+(might not be correct to the last detail, but you get the idea)
